@@ -1,0 +1,151 @@
+
+#root {
+  background:#F8F9FF;
+  /* background:#25254d; */
+  width: 100%;
+  min-height: 100vh;
+}
+
+.todoHeading{
+  color: #595773;
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.addItemsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+}
+.insertData{
+   /* border: 1px solid red!important; */
+   position: absolute;
+    top: 30%;
+    right: 3%;
+    width: 90%;
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.5rem;
+    font-family: initial;
+}
+.date{
+  width: 20%;
+}
+.BtnContainer{
+  /* border: 1px solid red!important; */
+  margin-top: 2rem;
+    display: flex;
+  }
+  .searchIcon{
+    position: absolute;
+    top: 28%;
+    left: 90%;
+    font-size: 1.5rem;
+  }
+.addItems{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+@media(max-width:750px){
+  .addItems{
+    width: 70%;
+  }
+}
+@media(max-width:434px){
+  .addItems{
+    width: 85%;
+  }
+  .tableContainer{
+    /* border: 1px solid green; */
+    width: 100%;
+  }
+  .tableRow{
+    width: 100%!important;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%!Important;
+    overflow-x: auto;
+  }
+}
+@media(max-width:300px){
+  .addItems{
+    width: 100%;
+  }
+  .searchIcon {
+    position: absolute;
+    top: 28%;
+    left: 83%;
+    font-size: 1.5rem;
+  }
+}
+.modalHeading{
+  font-family: cursive!important;
+  margin-bottom: 2rem!important;
+}
+.actions{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.trash,
+.edit{
+  color: #595773!important;
+  cursor: pointer;
+}
+.modalCustom{
+  background-color: #6272F1!important;
+  color: #fff!important;
+  padding: 0.25rem 4rem 0.25rem 4rem!important;
+  width: 50%;
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dropDownCustom{
+  background-color: #CCCEDF!important;
+}
+
+.saveChanges{
+  background-color: #6371F0!important;
+  width: 40%!important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+}
+.closeBtn{
+  width: 40%!important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* Bulb  */
+
+/* .bulbCol{
+  display: flex!important;
+  margin-top: 63%!important;
+  
+}
+.imgContainer{
+  height: 70%!important;
+  width: 40%!important;
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+.img{
+  width: 90rem;
+}
+.toggleBtn{
+  margin-left: auto!important;
+    width: 70%!important;
+    margin-right: auto!important;
+} */
